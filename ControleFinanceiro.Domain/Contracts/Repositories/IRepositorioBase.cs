@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ControleFinanceiro.Domain.Contracts
+namespace ControleFinanceiro.Domain.Contracts.Repositories
 {
     public interface IRepositorioBase<TEntity> where TEntity : class
     {
