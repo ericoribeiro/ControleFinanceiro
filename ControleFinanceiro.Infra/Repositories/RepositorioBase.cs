@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Domain.Contracts;
+﻿using ControleFinanceiro.Domain.Contracts.Repositories;
 using ControleFinanceiro.Infra.Data.EF;
 using System.Collections.Generic;
 using System.Linq;
