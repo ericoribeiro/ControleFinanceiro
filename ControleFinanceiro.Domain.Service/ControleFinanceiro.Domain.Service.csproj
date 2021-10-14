@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj" />
+    <ProjectReference Include="..\ControleFinanceiro.Infra\ControleFinanceiro.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

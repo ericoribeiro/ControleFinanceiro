@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF17645D-D54C-41C9-B0F8-BFB5AE450338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.UI", "ControleFinanceiro.UI\ControleFinanceiro.UI.csproj", "{40050A2F-F1C2-4FC3-B20B-B6D2060798D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.UI", "ControleFinanceiro.UI\ControleFinanceiro.UI.csproj", "{40050A2F-F1C2-4FC3-B20B-B6D2060798D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7A9EE530-9CEA-4866-A30A-2903EF1B85D5}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{D49E0E82
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0EE1DC1B-B6E3-4833-8C3D-1ABF7EFFE47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain", "ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{3BD5D698-DF1E-4EFF-892B-C628103F8E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Domain", "ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{3BD5D698-DF1E-4EFF-892B-C628103F8E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain.Service", "ControleFinanceiro.Domain.Service\ControleFinanceiro.Domain.Service.csproj", "{6CA64C51-58BE-459D-AF8E-253A2593EE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Infra", "ControleFinanceiro.Infra\ControleFinanceiro.Infra.csproj", "{B30FC450-F43A-43B4-A990-62415F6C8502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Infra", "ControleFinanceiro.Infra\ControleFinanceiro.Infra.csproj", "{B30FC450-F43A-43B4-A990-62415F6C8502}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Domain.Service", "ControleFinanceiro.Domain.Service\ControleFinanceiro.Domain.Service.csproj", "{D10F826A-949C-46C7-A234-C5D5AFC7CE66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,14 @@ Global
 		{3BD5D698-DF1E-4EFF-892B-C628103F8E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BD5D698-DF1E-4EFF-892B-C628103F8E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BD5D698-DF1E-4EFF-892B-C628103F8E9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CA64C51-58BE-459D-AF8E-253A2593EE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CA64C51-58BE-459D-AF8E-253A2593EE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CA64C51-58BE-459D-AF8E-253A2593EE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CA64C51-58BE-459D-AF8E-253A2593EE6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B30FC450-F43A-43B4-A990-62415F6C8502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B30FC450-F43A-43B4-A990-62415F6C8502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B30FC450-F43A-43B4-A990-62415F6C8502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B30FC450-F43A-43B4-A990-62415F6C8502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10F826A-949C-46C7-A234-C5D5AFC7CE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10F826A-949C-46C7-A234-C5D5AFC7CE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10F826A-949C-46C7-A234-C5D5AFC7CE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10F826A-949C-46C7-A234-C5D5AFC7CE66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,8 +51,8 @@ Global
 		{D49E0E82-5B78-47C1-9A5F-BC7EFC6773B2} = {AF17645D-D54C-41C9-B0F8-BFB5AE450338}
 		{0EE1DC1B-B6E3-4833-8C3D-1ABF7EFFE47E} = {AF17645D-D54C-41C9-B0F8-BFB5AE450338}
 		{3BD5D698-DF1E-4EFF-892B-C628103F8E9D} = {0EE1DC1B-B6E3-4833-8C3D-1ABF7EFFE47E}
-		{6CA64C51-58BE-459D-AF8E-253A2593EE6D} = {0EE1DC1B-B6E3-4833-8C3D-1ABF7EFFE47E}
 		{B30FC450-F43A-43B4-A990-62415F6C8502} = {D49E0E82-5B78-47C1-9A5F-BC7EFC6773B2}
+		{D10F826A-949C-46C7-A234-C5D5AFC7CE66} = {0EE1DC1B-B6E3-4833-8C3D-1ABF7EFFE47E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C5CA228-7C33-4DC6-B27E-B24AF4FECD28}

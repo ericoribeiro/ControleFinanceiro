@@ -13,7 +13,7 @@ namespace ControleFinanceiro.Infra.Data.EF
         {
             if (!builder.IsConfigured)
             {
-                builder.UseSqlServer(@"");
+                builder.UseSqlServer(@"Server=DESKTOP-AAKV0VP;Database=ControleFinanceiro;Integrated Security=True");
             }
         }
     }
